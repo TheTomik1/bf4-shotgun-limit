@@ -2,7 +2,7 @@
 
 Working Battlefield 4 shotgun limit using Insane Limits plugin. Inspired by the Sniper/DMR limit from Grovax.
 
-If you find the limit useful, please feel free to support me by starting the repo or following me.
+If you find the limit useful, please feel free to support me by staring the repo or following me.
 
 ## How to use?
 1. Download all the 3 files.
