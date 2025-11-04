@@ -2,8 +2,8 @@ int maxShotguns = 0;
 String factionName = null;
 List<String> shotgunTeam = new List<string>();
 
-Match shotgunCommand = Regex.Match(player.LastChat, @"!shotgun", RegexOptions.IgnoreCase);
-Match shinfoCommand = Regex.Match(player.LastChat, @"!shinfo", RegexOptions.IgnoreCase);
+Match shotgunCommand = Regex.Match(player.LastChat, @"^[!/]shotgun", RegexOptions.IgnoreCase);
+Match shinfoCommand = Regex.Match(player.LastChat, @"^[!/]shinfo", RegexOptions.IgnoreCase);
 
 if (plugin.RoundData.issetInt("shotgunSlots")) maxShotguns = plugin.RoundData.getInt("shotgunSlots");
 
